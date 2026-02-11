@@ -1,0 +1,40 @@
+# virtual environment
+.venv/
+venv/
+env/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# environment variables
+.env
+
+# model files
+model/
+models/
+checkpoints/
+*.bin
+*.pt
+*.safetensors
+
+# datasets
+data/
+datasets/
+
+# logs
+logs/
+wandb/
+
+# mac
+.DS_Store
+
+# vscode
+.vscode/
+
+# jupyter
+.ipynb_checkpoints/
+
+# huggingface cache
+.cache/
